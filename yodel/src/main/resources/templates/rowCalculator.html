@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Szerokość rejki</title>
+</head>
+<body>
+
+<form th:action="@{/rzad}" th:object="${calc}" method="post">
+        <label>Szerokość klepki</label>
+        <input type="number" th:field="*{width}"/><br>
+        <label>Długość od szpica do szpica</label>
+        <input type="number" th:field="*{totalLenght}"/>
+    <input type="submit" value="jedziesz"/>
+</form>
+
+</body>
+</html>

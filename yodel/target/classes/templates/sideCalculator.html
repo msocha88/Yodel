@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+
+<form th:action="@{/bok}" th:object="${calc}" method="post">
+   <label>Szerokość rejki</label><input type="number" th:field="*{rowLenght}"/><input type="submit" value="jedziesz"/>
+</form>
+</body>
+</html>
