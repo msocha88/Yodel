@@ -11,7 +11,7 @@ public class Calculator {
     public void calculateFrenchRow() {
 
         sideLenght = totalLenght - width;
-        rowLenght = Math.sqrt((Math.pow(sideLenght, 2) / 2));
+        rowLenght = Math.round(Math.sqrt((Math.pow(sideLenght, 2) / 2)));
     }
 
     public void calculateSide() {
