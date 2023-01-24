@@ -1,2 +1,2 @@
 # Yodel
-Chevron Calculator
+Chevron Calculator by MS
